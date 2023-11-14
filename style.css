@@ -100,7 +100,7 @@ div.service img {
 
 .latest {
     background-color: rgb(238, 237, 237);
-    height: 700px;
+    height: 600px;
     padding-top: 50px;
     text-align: center;
 }
@@ -121,4 +121,125 @@ div.service img {
     height: 180px;
     border-radius: 20px;
     margin-top: 80px;
+}
+.latest1 p {
+    font-weight: bold;
+    color: rgb(39, 56, 133);;
+}
+.button {
+    background-color: #112769;
+    margin-top: 70px;
+    text-transform: uppercase;
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    padding-top: 10px;
+}
+.button a {
+    color: white;
+}
+.promosi {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1177c0;
+    height: 50px;
+    font-size: 20px;
+}
+.follow {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 250px;
+    margin-top: 15px;
+} 
+.ig {
+    margin-right: 220px;
+    font-size: 35px;
+}
+.last {
+    display: flex;
+    height: 400px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #262626;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    word-spacing: 2px;
+    padding-left: 50px;
+}
+.last a {
+    margin-top: 12px;
+}
+.last h1 {
+    margin-top: 12px;
+}
+
+.corporate {
+    /* background-color: salmon; */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.corporate a {
+    color: gray;
+}
+.corporate h1 {
+    color: rgb(255, 255, 255);
+}
+.products {
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+}
+.products a {
+    color: gray;
+}
+.products h1{
+    color: rgb(255, 255, 255);
+}
+.dealer {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.dealer a {
+    color: gray;
+}
+.dealer h1 {
+    color: rgb(255, 255, 255);
+}
+.parts {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+.parts a {
+    color: gray;
+}
+.parts h1 {
+    color: rgb(255, 255, 255);
+}
+.film {
+    display: flex;
+    flex-direction: column;
+    /* background-color: salmon; */
+}
+.film a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.activity {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+}
+.activity a {
+    color: gray;
+}
+.activity h1 {
+    color: white;
 }
