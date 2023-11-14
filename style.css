@@ -243,3 +243,25 @@ div.service img {
 .activity h1 {
     color: white;
 }
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+.carousel-slide.active {
+    display: block;
+    animation: slides 1s ease-in-out;
+}
+
+@keyframes slides {
+    0%, 100% {opacity: 0;}
+    10%, 90% {opacity: 1;}
+}

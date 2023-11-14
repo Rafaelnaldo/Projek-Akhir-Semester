@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloning Web Yamaha</title>
-    <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
 <body>
     <div class="container">
@@ -31,8 +31,22 @@
         </div>
     </div>
     <div style="height: 138px;"></div>
-    <div class="foto">
-        <img class="fotos" src="C:\Users\Rafaelnaldo\Desktop\foto\tugas copy web\foto yamaha.jpg" alt="">
+    <div class="carousel">
+        <div class="carousel-slide">
+            <img src="C:\Users\Rafaelnaldo\Desktop\foto yamaha.jpg" alt="">
+        </div>
+        <div class="carousel-slide">
+            <img src="C:\Users\Rafaelnaldo\Desktop\foto yamaha2.jpg" alt="">
+        </div>
+        <div class="carousel-slide">
+            <img src="C:\Users\Rafaelnaldo\Desktop\foto yamaha3.jpg" alt="">
+        </div>
+        <div class="carousel-slide">
+            <img src="C:\Users\Rafaelnaldo\Desktop\foto yamaha4.png" alt="">
+        </div>
+        <div class="carousel-slide">
+            <img src="C:\Users\Rafaelnaldo\Desktop\foto yamah5.jpeg" alt="">
+        </div>
     </div>
     <div class="category">
         <h1>product category</h1>
@@ -126,5 +140,22 @@
             
         </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded" , function(){
+            const slides = document.querySelectorAll(".carousel-slide");
+            let currentSlideIndex = 0;
+
+            function showSlide(index){
+                slides [currentSlideIndex]. style.display = "none";
+                currentSlideIndex = (index + slides. length) % slides . length;
+                slides[currentSlideIndex].style.display = "block";
+            }
+            function nextSlide(){
+                showSlide(currentSlideIndex+1);
+            }
+            showSlide(currentSlideIndex);
+            setInterval(nextSlide, 5000);
+        });
+    </script>
 </body>
 </html>
