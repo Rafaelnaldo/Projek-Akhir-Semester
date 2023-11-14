@@ -258,10 +258,10 @@ div.service img {
 }
 .carousel-slide.active {
     display: block;
-    animation: slides 1s ease-in-out;
+    animation: slide 1s ease-in-out;
 }
 
-@keyframes slides {
+@keyframes slide {
     0%, 100% {opacity: 0;}
     10%, 90% {opacity: 1;}
 }
