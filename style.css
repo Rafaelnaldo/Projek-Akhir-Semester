@@ -14,6 +14,7 @@ div.container {
     top: 0;
     left: 0;
     width: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 div.container-search {
@@ -42,7 +43,7 @@ div.container-search {
 }
 
 div.container-nav {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
     display: flex;
 }
@@ -55,7 +56,7 @@ div.nav {
     margin-top: 40px;
 }
 div.nav a {
-    color: rgb(24, 42, 19);
+    color: rgb(30, 42, 93);
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -69,4 +70,55 @@ div.logo {
 }
 .fotos {
     width: 100%;
+    
+}
+div.category {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(240, 240, 240);
+    height: 350px;
+    padding-top: 100px;
+}
+div.category > h1 {
+    color: rgb(30, 42, 93);
+}
+.product img{
+    width: 325px;
+    height: 150px;
+}
+div.service {
+    text-align: center;
+    margin-top: 20px;
+}
+div.service img {
+    width: 500px;
+    height: 325px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+
+}
+
+.latest {
+    background-color: rgb(238, 237, 237);
+    height: 700px;
+    padding-top: 50px;
+    text-align: center;
+}
+.latest h1 {
+    /* background-color: salmon; */
+    display: flex;
+    margin-left: 240px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(30, 42, 93);
+}
+.latest1 {
+    display: inline;
+    margin-left: 30px;
+}
+.latest1 img {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: 80px;
 }
