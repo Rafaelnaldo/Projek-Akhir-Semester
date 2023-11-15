@@ -69,79 +69,60 @@ div.nav a:hover {
 div.logo {
     margin-left: 50px;
 }
+.row {
+    text-align: center;
+    margin-top: 30px;
+}
+.p {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 20px ;
+    margin-right: 2px;
+}
+.gede {
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 80%;
+    margin-left: 170px;
+    margin-top: 30px;
+    display: inline-flex;
+    background-color: #203E94;
+}
 .fotos {
-    width: 100%;
+    width: 500px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.tulisan {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 25px;
     
 }
-div.category {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: rgb(240, 240, 240);
-    height: 350px;
-    padding-top: 100px;
-}
-div.category > h1 {
-    color: rgb(30, 42, 93);
-}
-.product img{
-    width: 325px;
-    height: 150px;
-}
-div.service {
-    text-align: center;
-    margin-top: 20px;
-}
-div.service img {
+.satu {
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 30px;
     width: 500px;
-    height: 325px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 25px;
-
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 150px;
 }
-
-.latest {
-    background-color: rgb(238, 237, 237);
-    height: 600px;
-    padding-top: 50px;
-    text-align: center;
-}
-.latest h1 {
-    /* background-color: salmon; */
-    display: flex;
-    margin-left: 240px;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: rgb(30, 42, 93);
-}
-.latest1 {
-    display: inline;
-    margin-left: 30px;
-}
-.latest1 img {
-    width: 300px;
+.t {
+    width: 220px;
     height: 180px;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.latest1 p {
+.word {
     font-weight: bold;
-    color: rgb(39, 56, 133);;
-}
-.button {
-    background-color: #112769;
-    margin-top: 70px;
-    text-transform: uppercase;
-    display: inline-block;
-    float: left;
-    border: 1px solid black;
-    margin-left: 10px;
-    border-radius: 20px;
-    width: 120px;
-    height: 40px;
-    padding-top: 10px;
-}
-.button a {
-    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .promosi {
     display: flex;
@@ -243,26 +224,4 @@ div.service img {
 }
 .activity h1 {
     color: white;
-}
-.carousel {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-slide {
-    display: none;
-}
-
-.carousel-slide img {
-    width: 100%;
-    height: auto;
-}
-.carousel-slide.active {
-    display: block;
-    animation: slide 1s ease-in-out;
-}
-
-@keyframes slide {
-    0%, 100% {opacity: 0;}
-    10%, 90% {opacity: 1;}
 }

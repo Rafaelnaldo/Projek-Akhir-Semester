@@ -69,79 +69,85 @@ div.nav a:hover {
 div.logo {
     margin-left: 50px;
 }
-.fotos {
-    width: 100%;
-    
-}
-div.category {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: rgb(240, 240, 240);
-    height: 350px;
-    padding-top: 100px;
-}
-div.category > h1 {
-    color: rgb(30, 42, 93);
-}
-.product img{
-    width: 325px;
-    height: 150px;
-}
-div.service {
-    text-align: center;
-    margin-top: 20px;
-}
-div.service img {
-    width: 500px;
-    height: 325px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 25px;
-
-}
-
-.latest {
-    background-color: rgb(238, 237, 237);
-    height: 600px;
+div.help {
+    background-color: #23387B;
     padding-top: 50px;
-    text-align: center;
-}
-.latest h1 {
-    /* background-color: salmon; */
+    padding-bottom: 50px;
+    padding-left: 200px;
     display: flex;
-    margin-left: 240px;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: rgb(30, 42, 93);
 }
-.latest1 {
-    display: inline;
-    margin-left: 30px;
+.helpcenter p {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 12px;
+    padding-left: 20px;
 }
-.latest1 img {
-    width: 300px;
-    height: 180px;
-    border-radius: 20px;
-    margin-top: 80px;
+.logoss {
+    width: 70px;
+    height: 60px;
 }
-.latest1 p {
-    font-weight: bold;
-    color: rgb(39, 56, 133);;
+.head {
+    background-color: rgb(230, 230, 230);
+    padding-left: 200px;
+    height: 300px;
+    padding-top: 45px;
 }
-.button {
-    background-color: #112769;
-    margin-top: 70px;
-    text-transform: uppercase;
-    display: inline-block;
-    float: left;
+.logosss {
+    font-size: 40px;
+}
+.headd {
+    display: flex;
+}
+.tulisan {
+    padding-top: 10px;
+    font-size: 17px;
+    padding-left: 30px;
+}
+.besar {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.form {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.identitas1 p {
+    color: #23409B;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.entryform {
+    border-radius: 30px;
+    height: 40px;
+    width: 1050px;
+    background-color: rgb(240, 240, 240);
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.entryform2 {
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-bottom: 110px;
+    height: 170px;
+    width: 1050px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 10px;
+}
+.tombol {
     border: 1px solid black;
-    margin-left: 10px;
-    border-radius: 20px;
     width: 120px;
+    margin-top: 30px;
+    border-radius: 20px;
     height: 40px;
     padding-top: 10px;
+    padding-left: 39px;
+    background-color: #23409B;
+    margin-bottom: 70px;
 }
-.button a {
+.tombol a {
     color: white;
+    font-weight: bold;
 }
 .promosi {
     display: flex;
@@ -243,26 +249,4 @@ div.service img {
 }
 .activity h1 {
     color: white;
-}
-.carousel {
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-slide {
-    display: none;
-}
-
-.carousel-slide img {
-    width: 100%;
-    height: auto;
-}
-.carousel-slide.active {
-    display: block;
-    animation: slide 1s ease-in-out;
-}
-
-@keyframes slide {
-    0%, 100% {opacity: 0;}
-    10%, 90% {opacity: 1;}
 }
