@@ -139,22 +139,6 @@
             
         </div>
     </div>
-    <script>
-      document.addEventListener("DOMContentLoaded" , function(){
-            const slides = document.querySelectorAll(".carousel-slide");
-            let currentSlideIndex = 0;
-
-            function showSlide(index){
-                slides [currentSlideIndex]. style.display = "none";
-                currentSlideIndex = (index + slides. length) % slides . length;
-                slides[currentSlideIndex].style.display = "block";
-            }
-            function nextSlide(){
-                showSlide(currentSlideIndex+1);
-            }
-            showSlide(currentSlideIndex);
-            setInterval(nextSlide, 5000);
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
